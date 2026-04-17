@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import { Helmet } from "react-helmet-async";
 import { motion, AnimatePresence } from "framer-motion";
 import { Star, Wifi, Car, Coffee, Wind, MapPin, X, ChevronLeft, ChevronRight, SlidersHorizontal, Trees, Dumbbell, Users, Flower2 } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -161,6 +162,10 @@ const RoomModal = ({ hotel, onClose }: { hotel: Hotel; onClose: () => void }) =>
 
   return (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-foreground/50 backdrop-blur-sm" onClick={onClose}>
+      <Helmet>
+        <title>Hotel Booking in Vrindavan | Best Stay Options</title>
+        <link rel="canonical" href="https://www.shreevrindavantourandpackages.com/hotel-booking" />
+      </Helmet>
       <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} exit={{ scale: 0.95 }} className="bg-card rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto border border-border" onClick={(e) => e.stopPropagation()}>
         <div className="flex items-center justify-between p-4 border-b border-border">
           <h3 className="font-heading font-bold text-xl text-foreground truncate">

@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { Heart, Building, Users, MapPin } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -24,6 +25,10 @@ const packages = [
 
 const DestinationWedding = () => (
   <div className="min-h-screen bg-background">
+    <Helmet>
+      <title>Destination Wedding in Vrindavan | Plan Your Wedding</title>
+      <link rel="canonical" href="https://www.shreevrindavantourandpackages.com/destination-wedding" />
+    </Helmet>
     <Navbar />
     <section className="relative h-[50vh] min-h-[340px] flex items-center justify-center overflow-hidden">
       <img src={heroImg} alt="Destination Wedding in Vrindavan" className="absolute inset-0 w-full h-full object-cover" fetchPriority="high" loading="eager" decoding="async" width="1920" height="1080" />

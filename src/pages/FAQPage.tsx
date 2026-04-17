@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -31,6 +32,10 @@ const faqs = [
 
 const FAQPage = () => (
   <div className="min-h-screen bg-background">
+    <Helmet>
+      <title>FAQ | Vrindavan Tour Packages Questions</title>
+      <link rel="canonical" href="https://www.shreevrindavantourandpackages.com/faq" />
+    </Helmet>
     <Navbar />
     <section className="relative h-[40vh] min-h-[280px] flex items-center justify-center overflow-hidden">
       <img src={heroImg} alt="Frequently Asked Questions" className="absolute inset-0 w-full h-full object-cover" fetchPriority="high" loading="eager" decoding="async" width="1920" height="1080" />

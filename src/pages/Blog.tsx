@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -51,6 +52,10 @@ const posts = [
 
 const Blog = () => (
   <div className="min-h-screen bg-background">
+    <Helmet>
+      <title>Vrindavan Travel Blog | Tips & Guides</title>
+      <link rel="canonical" href="https://www.shreevrindavantourandpackages.com/blog" />
+    </Helmet>
     <Navbar />
     <section className="relative h-[40vh] min-h-[280px] flex items-center justify-center overflow-hidden">
       <img src={Blog1} alt="Blog" className="absolute inset-0 w-full h-full object-cover" fetchPriority="high" loading="eager" decoding="async" width="1920" height="1080" />

@@ -9,6 +9,7 @@ import Blog3 from "@/assets/blogimages/Blog3.webp";
 import Blog4 from "@/assets/blogimages/Blog4.webp";
 import Blog5 from "@/assets/blogimages/Blog5.webp";
 import Blog6 from "@/assets/blogimages/Blog6.webp"
+import { Helmet } from "react-helmet-async";
 
 const blogData: Record<string, { title: string; img: string; content: string[] }> = {
   "best-time-to-visit-vrindavan": {
@@ -106,6 +107,10 @@ const BlogPost = () => {
   if (!post) {
     return (
       <div className="min-h-screen bg-background">
+        <Helmet>
+          <title>Blog Details | Vrindavan Travel Guide</title>
+          <link rel="canonical" href={window.location.href} />
+        </Helmet>
         <Navbar />
         <div className="container mx-auto px-4 py-24 text-center">
           <h1 className="text-3xl font-heading font-bold text-foreground">Post Not Found</h1>

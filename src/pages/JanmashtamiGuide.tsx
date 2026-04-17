@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -17,6 +18,10 @@ const celebrations = [
 
 const JanmashtamiGuide = () => (
   <div className="min-h-screen bg-background">
+    <Helmet>
+      <title>Janmashtami in Vrindavan | Festival Guide</title>
+      <link rel="canonical" href="https://www.shreevrindavantourandpackages.com/janmashtami-vrindavan" />
+    </Helmet>
     <Navbar />
     <section className="relative h-[50vh] min-h-[340px] flex items-center justify-center overflow-hidden">
       <img src={heroImg} alt="Janmashtami in Vrindavan" className="absolute inset-0 w-full h-full object-cover" fetchPriority="high" loading="eager" decoding="async" width="1920" height="1080" />

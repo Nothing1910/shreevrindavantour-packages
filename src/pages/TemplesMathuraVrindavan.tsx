@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { motion, AnimatePresence } from "framer-motion";
 import { X } from "lucide-react";
 import Navbar from "@/components/Navbar";
@@ -117,6 +118,10 @@ interface Temple { img: string; name: string; short: string; bestTime: string; d
 
 const TempleModal = ({ temple, onClose }: { temple: Temple; onClose: () => void }) => (
   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-foreground/50 backdrop-blur-sm" onClick={onClose}>
+    <Helmet>
+      <title>Top Temples in Mathura Vrindavan | Complete Guide</title>
+      <link rel="canonical" href="https://www.shreevrindavantourandpackages.com/temples-mathura-vrindavan" />
+    </Helmet>
     <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} exit={{ scale: 0.95 }} className="bg-card rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
       <div className="relative">
         <img src={temple.img} alt={temple.name} className="w-full h-64 object-cover rounded-t-2xl" loading="lazy" decoding="async" width="800" height="400" />

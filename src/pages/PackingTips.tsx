@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Helmet } from "react-helmet-async";
 import { Luggage, Shirt, Sun, PartyPopper, HeartPulse } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -71,6 +72,10 @@ const sections = [
 
 const PackingTips = () => (
   <div className="min-h-screen bg-background">
+    <Helmet>
+      <title>Packing Tips for Vrindavan Trip | Travel Guide</title>
+      <link rel="canonical" href="https://www.shreevrindavantourandpackages.com/packing-tips-mathura-vrindavan" />
+    </Helmet>
     <Navbar />
     <section className="relative h-[45vh] min-h-[300px] flex items-center justify-center overflow-hidden">
       <img src={heroImg} alt="Packing Tips for Mathura Vrindavan" className="absolute inset-0 w-full h-full object-cover" fetchPriority="high" loading="eager" decoding="async" width="1920" height="1080" />

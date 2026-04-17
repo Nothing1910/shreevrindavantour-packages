@@ -1,4 +1,5 @@
 import { lazy, Suspense } from "react";
+import { Helmet } from "react-helmet-async";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
 import FloatingButtons from "@/components/FloatingButtons";
@@ -20,57 +21,64 @@ const FAQSection = lazy(() => import("@/components/FAQSection"));
 
 const Index = () => {
   return (
-    <main className="min-h-screen">
-      <Navbar />
-      <HeroSection />
+    <>
+      <Helmet>
+        <title>Vrindavan Tour Packages | Mathura Vrindavan Travel & Braj Yatra</title>
+        <link rel="canonical" href="https://www.shreevrindavantourandpackages.com/" />
+      </Helmet>
 
-      <LazyMount id="packages" minHeight="800px">
-        <PackagesSection />
-      </LazyMount>
+      <main className="min-h-screen">
+        <Navbar />
+        <HeroSection />
 
-      <LazyMount id="destinations" minHeight="600px">
-        <DestinationsSection />
-      </LazyMount>
+        <LazyMount id="packages" minHeight="800px">
+          <PackagesSection />
+        </LazyMount>
 
-      <LazyMount minHeight="400px">
-        <StatsSection />
-      </LazyMount>
+        <LazyMount id="destinations" minHeight="600px">
+          <DestinationsSection />
+        </LazyMount>
 
-      <LazyMount minHeight="300px">
-        <CTABanner />
-      </LazyMount>
+        <LazyMount minHeight="400px">
+          <StatsSection />
+        </LazyMount>
 
-      <LazyMount minHeight="600px">
-        <AboutSection />
-      </LazyMount>
+        <LazyMount minHeight="300px">
+          <CTABanner />
+        </LazyMount>
 
-      <LazyMount minHeight="600px">
-        <WhyTravelSection />
-      </LazyMount>
+        <LazyMount minHeight="600px">
+          <AboutSection />
+        </LazyMount>
 
-      <LazyMount id="services" minHeight="600px">
-        <ServicesSection />
-      </LazyMount>
+        <LazyMount minHeight="600px">
+          <WhyTravelSection />
+        </LazyMount>
 
-      <LazyMount id="contact" minHeight="800px">
-        <ContactSection />
-      </LazyMount>
-      
-      <LazyMount minHeight="800px">
-        <Suspense fallback={<div className="min-h-[500px] flex items-center justify-center">Loading...</div>}>
-          <ExperienceBrajSection />
-          <BrajMapSection />
-          <ReviewsSection />
-          <FAQSection />
-        </Suspense>
-      </LazyMount>
-      
-      <LazyMount minHeight="400px">
-        <Footer />
-      </LazyMount>
+        <LazyMount id="services" minHeight="600px">
+          <ServicesSection />
+        </LazyMount>
 
-      <FloatingButtons />
-    </main>
+        <LazyMount id="contact" minHeight="800px">
+          <ContactSection />
+        </LazyMount>
+
+        <LazyMount minHeight="800px">
+          <Suspense fallback={<div className="min-h-[500px] flex items-center justify-center">Loading...</div>}>
+            <ExperienceBrajSection />
+            <BrajMapSection />
+            <ReviewsSection />
+            <FAQSection />
+          </Suspense>
+        </LazyMount>
+
+        <LazyMount minHeight="400px">
+          <Footer />
+        </LazyMount>
+
+        <FloatingButtons />
+      </main>
+    </>
   );
 };
 
