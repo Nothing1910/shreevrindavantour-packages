@@ -42,6 +42,7 @@ const PackagesSection = () => {
                 whileInView={shouldReduceMotion ? {} : { opacity: 1, y: 0 }}
                 transition={shouldReduceMotion ? { duration: 0 } : { duration: 0.5 }}
                 viewport={{ once: true, margin: "0px 0px -80px 0px" }}
+                onClick={() => openModal(pkgItem)}
                 className="group bg-card rounded-xl border border-border overflow-hidden shadow-card hover:shadow-card-hover hover:scale-[1.03] transition-all duration-300"
               >
                 <div className="relative h-48 overflow-hidden">
