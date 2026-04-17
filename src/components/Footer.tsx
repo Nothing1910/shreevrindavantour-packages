@@ -116,7 +116,7 @@ const Footer = () => (
       </div>
 
       <div className="border-t border-secondary-foreground/10 pt-6 text-center text-sm text-secondary-foreground/50">
-        <p>© 2026 Shree Vrindavan Tour & Packages | A Unit of Experience My India</p>
+        <p>© 2026 Shree Vrindavan Tour & Packages</p>
       </div>
     </div>
   </footer>
