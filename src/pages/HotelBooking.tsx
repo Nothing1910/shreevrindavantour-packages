@@ -208,7 +208,7 @@ const RoomModal = ({ hotel, onClose }: { hotel: Hotel; onClose: () => void }) =>
           </ul>
           <div className="flex gap-3 mt-6">
             <a href="/#contact" className="flex-1 text-center py-3 rounded-xl bg-gradient-saffron text-primary-foreground font-semibold hover:opacity-90 transition-opacity">Enquire Now</a>
-            <a href={`https://wa.me/918923427393?text=${encodeURIComponent(`Hi! I want to book ${room.type} room at ${hotel.name}`)}`} target="_blank" rel="noopener noreferrer" className="flex-1 text-center py-3 rounded-xl border-2 border-primary text-primary font-semibold hover:bg-saffron-light transition-colors">WhatsApp</a>
+            <a href={`https://wa.me/919084397393?text=${encodeURIComponent(`Hi! I want to book ${room.type} room at ${hotel.name}`)}`} target="_blank" rel="noopener noreferrer" className="flex-1 text-center py-3 rounded-xl border-2 border-primary text-primary font-semibold hover:bg-saffron-light transition-colors">WhatsApp</a>
           </div>
         </div>
       </motion.div>

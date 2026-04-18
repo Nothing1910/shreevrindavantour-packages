@@ -551,7 +551,7 @@ const MathuraVrindavanGuide = () => {
               Get a Free Quote
             </a>
             <a
-              href="https://wa.me/9198923427393?text=Namaste!%20I%20want%20to%20know%20about%20Mathura%20Vrindavan%20Tour%20Packages"
+              href="https://wa.me/919084397393?text=Namaste!%20I%20want%20to%20know%20about%20Mathura%20Vrindavan%20Tour%20Packages"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center border-2 border-primary text-primary px-8 py-3 rounded-full font-heading font-semibold hover:bg-saffron-light transition-colors"

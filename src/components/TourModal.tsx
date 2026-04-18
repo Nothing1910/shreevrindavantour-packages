@@ -162,7 +162,7 @@ const TourModal = ({ tour, onClose }: TourModalProps) => {
                 </a>
 
                 <a
-                  href={`https://wa.me/918923427393?text=${encodeURIComponent(
+                  href={`https://wa.me/919084397393?text=${encodeURIComponent(
                     `Hi! I want to book ${tour.title}`
                   )}`}
                   target="_blank"

@@ -26,7 +26,7 @@ Phone: ${formState.phone}
 Date: ${formState.date}`;
 
     window.open(
-      `https://wa.me/918923427393?text=${encodeURIComponent(msg)}`,
+      `https://wa.me/919084397393?text=${encodeURIComponent(msg)}`,
       "_blank",
       "noopener,noreferrer"
     );

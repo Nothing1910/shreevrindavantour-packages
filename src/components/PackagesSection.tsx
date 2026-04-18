@@ -90,7 +90,7 @@ const PackagesSection = () => {
 
                   <div className="flex gap-3 mt-4">
                     <a
-                      href={`https://wa.me/918923427393?text=${encodeURIComponent(
+                      href={`https://wa.me/919084397393?text=${encodeURIComponent(
                         `Hi! I want to enquire about ${pkgItem.title}`
                       )}`}
                       target="_blank"
