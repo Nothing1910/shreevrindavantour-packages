@@ -98,13 +98,13 @@ const Footer = () => (
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                +91 90843 97393
+                +91 89234 27393
               </a>
             </li>
             <li className="flex items-center gap-2">
               <Mail size={16} className="text-primary" aria-hidden="true" />
               <a href="mailto:info@vrindavanpackages.com" className="hover:text-primary">
-                info@vrindavanpackages.com
+                shreevrindavantourandpackages.com
               </a>
             </li>
             <li className="flex items-start gap-2">
