@@ -49,7 +49,7 @@ Accommodation: ${formState.accommodation}
 Comments: ${formState.comments}`;
 
     window.open(
-      `https://wa.me/919084397393?text=${encodeURIComponent(messageContent)}`,
+      `https://wa.me/918923427393?text=${encodeURIComponent(messageContent)}`,
       "_blank",
       "noopener,noreferrer"
     );

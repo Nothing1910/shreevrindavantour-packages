@@ -86,7 +86,7 @@ const DestinationWedding = () => (
         <p className="text-muted-foreground max-w-xl mx-auto mb-6">Share your vision with us and let our team create a wedding experience that blends sacred traditions with modern elegance.</p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="/#contact" className="inline-flex items-center justify-center bg-gradient-saffron text-primary-foreground px-8 py-3 rounded-full font-heading font-semibold hover:opacity-90 transition-opacity">Get a Free Quote</a>
-          <a href="https://wa.me/919084397393?text=Hi!%20I%20want%20to%20plan%20a%20destination%20wedding%20in%20Vrindavan" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border-2 border-primary text-primary px-8 py-3 rounded-full font-heading font-semibold hover:bg-saffron-light transition-colors">WhatsApp Us</a>
+          <a href="https://wa.me/918923427393?text=Hi!%20I%20want%20to%20plan%20a%20destination%20wedding%20in%20Vrindavan" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border-2 border-primary text-primary px-8 py-3 rounded-full font-heading font-semibold hover:bg-saffron-light transition-colors">WhatsApp Us</a>
         </div>
       </motion.div>
     </section>

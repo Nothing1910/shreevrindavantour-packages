@@ -36,7 +36,7 @@ const Footer = () => (
               <Facebook size={16} aria-hidden="true" />
             </a>
             <a
-              href="https://wa.me/919084397393?text=Hi%2C%20I%20want%20more%20information%20about%20the%20tours%20and%20travelling%20to%20the%20destination."
+              href="https://wa.me/918923427393?text=Hi%2C%20I%20want%20more%20information%20about%20the%20tours%20and%20travelling%20to%20the%20destination."
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Chat on WhatsApp"
@@ -86,14 +86,14 @@ const Footer = () => (
           <ul className="space-y-3 text-sm text-secondary-foreground/70">
             <li className="flex items-center gap-2">
               <Phone size={16} className="text-primary" aria-hidden="true" />
-              <a href="tel:+919084397393" className="hover:text-primary">
+              <a href="tel:+918923427393" className="hover:text-primary">
                 +91 89234 27393
               </a>
             </li>
             <li className="flex items-center gap-2">
               <MessageCircle size={16} className="text-primary" aria-hidden="true" />
               <a
-                href="https://wa.me/919084397393"
+                href="https://wa.me/918923427393"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-primary"

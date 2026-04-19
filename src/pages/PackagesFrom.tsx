@@ -73,7 +73,7 @@ const PackagesFrom = () => (
                       <h3 className="font-heading font-semibold text-foreground">{pkg.title}</h3>
                       <p className="text-primary font-bold mt-1 flex items-center gap-1"><IndianRupee size={14} />{pkg.price}</p>
                     </div>
-                    <a href={`https://wa.me/919084397393?text=${encodeURIComponent(`Hi! I want to enquire about ${pkg.title}`)}`} target="_blank" rel="noopener noreferrer" className="shrink-0 px-6 py-2.5 rounded-lg bg-gradient-saffron text-primary-foreground font-semibold text-sm hover:opacity-90 transition-opacity">Enquire Now</a>
+                    <a href={`https://wa.me/918923427393?text=${encodeURIComponent(`Hi! I want to enquire about ${pkg.title}`)}`} target="_blank" rel="noopener noreferrer" className="shrink-0 px-6 py-2.5 rounded-lg bg-gradient-saffron text-primary-foreground font-semibold text-sm hover:opacity-90 transition-opacity">Enquire Now</a>
                   </div>
                   <div className="flex flex-wrap gap-2 mt-3">
                     {pkg.highlights.map((h) => <span key={h} className="text-xs bg-saffron-light text-primary px-2.5 py-1 rounded-md font-medium">{h}</span>)}

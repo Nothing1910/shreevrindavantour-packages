@@ -88,7 +88,7 @@ const JanmashtamiGuide = () => (
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a href="/#contact" className="inline-flex items-center justify-center bg-gradient-saffron text-primary-foreground px-8 py-3 rounded-full font-heading font-semibold hover:opacity-90 transition-opacity">Enquire Now</a>
-          <a href="https://wa.me/919084397393?text=Hi!%20I%20want%20to%20book%20a%20Janmashtami%20tour%20package" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border-2 border-primary text-primary px-8 py-3 rounded-full font-heading font-semibold hover:bg-saffron-light transition-colors">WhatsApp Us</a>
+          <a href="https://wa.me/918923427393?text=Hi!%20I%20want%20to%20book%20a%20Janmashtami%20tour%20package" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center border-2 border-primary text-primary px-8 py-3 rounded-full font-heading font-semibold hover:bg-saffron-light transition-colors">WhatsApp Us</a>
         </div>
       </motion.div>
     </article>

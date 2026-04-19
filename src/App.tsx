@@ -6,6 +6,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Index from "./pages/Index.tsx";
 import NotFound from "./pages/NotFound.tsx";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const MathuraVrindavanGuide = lazy(() => import("./pages/MathuraVrindavanGuide.tsx"));
 const HotelBooking = lazy(() => import("./pages/HotelBooking.tsx"));
@@ -46,6 +47,7 @@ const App = () => (
             <Route path="/packages-from" element={<PackagesFrom />} />
             <Route path="/destination-wedding" element={<DestinationWedding />} />
             <Route path="*" element={<NotFound />} />
+            <SpeedInsights />
           </Routes>
         </Suspense>
       </BrowserRouter>
