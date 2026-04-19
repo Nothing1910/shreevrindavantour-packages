@@ -87,7 +87,7 @@ const Footer = () => (
             <li className="flex items-center gap-2">
               <Phone size={16} className="text-primary" aria-hidden="true" />
               <a href="tel:+919084397393" className="hover:text-primary">
-                +91 90843 97393
+                +91 89234 27393
               </a>
             </li>
             <li className="flex items-center gap-2">
@@ -98,7 +98,7 @@ const Footer = () => (
                 rel="noopener noreferrer"
                 className="hover:text-primary"
               >
-                +91 89234 27393
+                +91 90843 97393
               </a>
             </li>
             <li className="flex items-center gap-2">
