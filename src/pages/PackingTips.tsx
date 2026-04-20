@@ -74,6 +74,7 @@ const PackingTips = () => (
   <div className="min-h-screen bg-background">
     <Helmet>
       <title>Packing Tips for Vrindavan Trip | Travel Guide</title>
+      <meta name="description" content="Complete packing tips for visiting Vrindavan and Mathura including weather, essentials and travel advice." />
       <link rel="canonical" href="https://www.shreevrindavantourandpackages.com/packing-tips-mathura-vrindavan" />
     </Helmet>
     <Navbar />

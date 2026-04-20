@@ -120,6 +120,7 @@ const TempleModal = ({ temple, onClose }: { temple: Temple; onClose: () => void 
   <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-foreground/50 backdrop-blur-sm" onClick={onClose}>
     <Helmet>
       <title>Top Temples in Mathura Vrindavan | Complete Guide</title>
+      <meta name="description" content="Explore famous temples of Mathura and Vrindavan including Banke Bihari, ISKCON and more." />
       <link rel="canonical" href="https://www.shreevrindavantourandpackages.com/temples-mathura-vrindavan" />
     </Helmet>
     <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} exit={{ scale: 0.95 }} className="bg-card rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>

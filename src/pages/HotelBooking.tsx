@@ -164,6 +164,7 @@ const RoomModal = ({ hotel, onClose }: { hotel: Hotel; onClose: () => void }) =>
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-foreground/50 backdrop-blur-sm" onClick={onClose}>
       <Helmet>
         <title>Hotel Booking in Vrindavan | Best Stay Options</title>
+        <meta name="description" content="Find best hotels and stay options in Vrindavan with affordable pricing and comfort." />
         <link rel="canonical" href="https://www.shreevrindavantourandpackages.com/hotel-booking" />
       </Helmet>
       <motion.div initial={{ scale: 0.95 }} animate={{ scale: 1 }} exit={{ scale: 0.95 }} className="bg-card rounded-2xl max-w-2xl w-full max-h-[90vh] overflow-y-auto border border-border" onClick={(e) => e.stopPropagation()}>
