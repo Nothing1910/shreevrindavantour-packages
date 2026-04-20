@@ -63,6 +63,14 @@ const Blog = () => (
       <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="relative z-10 text-center px-4">
         <h1 className="text-3xl md:text-5xl font-heading font-bold text-primary-foreground">Blog & Travel Guides</h1>
         <p className="text-primary-foreground/80 mt-3 text-lg">Stories, tips, and insights from the sacred land of Braj</p>
+        <br />
+        <br />
+        <h1 className="text-2xl md:text-3xl font-heading font-bold text-primary-foreground">Vrindavan Travel Blog</h1>
+        <p className="text-primary-foreground/80 mt-3 text-lg">
+          Welcome to our Vrindavan travel blog where we share useful tips, guides, and insights
+          for visiting Mathura and Vrindavan. From temple guides to festival experiences,
+          our blog helps you plan a better and more meaningful journey.
+        </p>
       </motion.div>
     </section>
 

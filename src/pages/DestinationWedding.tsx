@@ -43,6 +43,14 @@ const DestinationWedding = () => (
       <motion.div {...fade} className="max-w-3xl mx-auto text-center">
         <h2 className="text-2xl md:text-3xl font-heading font-bold text-primary mb-4">A Wedding Blessed by Radha Krishna</h2>
         <p className="text-muted-foreground leading-relaxed">Vrindavan — the land of eternal love between Radha and Krishna — is the most auspicious place to begin your married life. A wedding here is not just an event; it is a spiritual experience that blesses your union with divine grace. Our team handles every detail so you can focus on what matters most: celebrating love.</p>
+        <br />
+        <br />
+        <h1 className="text-1xl md:text-2xl font-heading font-bold text-primary mb-4">Destination Wedding in Vrindavan</h1>
+        <p className="text-muted-foreground leading-relaxed">
+          Plan your dream destination wedding in the spiritual land of Vrindavan.
+          We offer complete wedding planning services including venue selection,
+          decoration, guest management, and logistics to make your special day memorable.
+        </p>
       </motion.div>
 
       <div>

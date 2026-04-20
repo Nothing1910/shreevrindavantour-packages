@@ -47,6 +47,12 @@ const FAQPage = () => (
     </section>
 
     <section className="container mx-auto px-4 py-12 lg:py-20 max-w-3xl">
+      <h1 className="text-left font-heading font-semibold text-foreground hover:text-primary py-5">Frequently Asked Questions</h1>
+      <p className="text-muted-foreground leading-relaxed pb-5">
+        Find answers to common questions about traveling to Mathura and Vrindavan,
+        including best time to visit, travel tips, accommodation, and temple visits.
+        This section is designed to help you plan your trip easily and confidently.
+      </p>
       <Accordion type="single" collapsible className="space-y-3">
         {faqs.map((faq, i) => (
           <AccordionItem key={i} value={`faq-${i}`} className="bg-card border border-border rounded-xl px-5 data-[state=open]:shadow-card-hover transition-shadow">

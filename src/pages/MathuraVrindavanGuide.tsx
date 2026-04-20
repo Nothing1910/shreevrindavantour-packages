@@ -533,6 +533,13 @@ const MathuraVrindavanGuide = () => {
             carry something of that sacredness home with them. It settles quietly into the heart,
             and it stays.
           </p>
+          <SectionHeading>Mathura Vrindavan Tour Packages</SectionHeading>
+            <p className="text-muted-foreground leading-[1.8] text-[17px] mb-5">
+              Explore the divine land of Mathura and Vrindavan with our carefully curated tour packages.
+              We provide complete travel solutions including temple visits, accommodation, and guided tours
+              to ensure a smooth and spiritual journey. Our packages are ideal for families, pilgrims,
+              and travelers seeking a peaceful experience in Braj.
+            </p>
         </motion.div>
 
         <motion.div {...fade} className="mt-16 text-center bg-gradient-cream rounded-2xl p-8 md:p-12 border border-border">
