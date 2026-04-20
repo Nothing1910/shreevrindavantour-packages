@@ -62,6 +62,15 @@ const AboutSection = () => {
               entire process — transport, accommodation, and guided experiences with a focus on safety
               and transparency.
             </p>
+            <section>
+              <h1>Mathura Vrindavan Tour & Packages</h1>
+
+              <p>
+                Mathura and Vrindavan are among the most sacred destinations in India, known for their spiritual significance and divine atmosphere.
+                Our tour packages are designed to give you a complete and peaceful experience, covering all major temples, ghats, and nearby holy places like Govardhan and Barsana.
+                Whether you are planning a family trip, pilgrimage, or a short spiritual getaway, we ensure comfortable travel, proper guidance, and memorable experiences throughout your journey.
+              </p>
+            </section>
           </motion.div>
         </div>
       </div>
