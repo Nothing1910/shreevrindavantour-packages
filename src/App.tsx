@@ -34,7 +34,7 @@ const App = () => (
       <BrowserRouter>
         <Suspense fallback={<Loader />}>
           <Routes>
-            <Route path="/" element={<Index />} />
+            {/* <Route path="/" element={<Index />} />
             <Route path="/mathura-vrindavan-tour-packages" element={<MathuraVrindavanGuide />} />
             <Route path="/hotel-booking" element={<HotelBooking />} />
             <Route path="/temples-mathura-vrindavan" element={<TemplesMathuraVrindavan />} />
@@ -45,7 +45,7 @@ const App = () => (
             <Route path="/janmashtami-vrindavan" element={<JanmashtamiGuide />} />
             <Route path="/packages-from" element={<PackagesFrom />} />
             <Route path="/destination-wedding" element={<DestinationWedding />} />
-            <Route path="*" element={<NotFound />} />
+            <Route path="*" element={<NotFound />} /> */}
           </Routes>
         </Suspense>
       </BrowserRouter>
